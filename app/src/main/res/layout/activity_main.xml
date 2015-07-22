@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:adiant="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView
+        android:text="@string/banner_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewBanner" />
+
+    <com.adiant.android.ads.AdView
+        adiant:smart="true"
+        adiant:adunitid="13324-4210187987"
+        adiant:adtype="BANNER_468_60"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/adViewBannerAd"
+        android:layout_below="@+id/textViewBanner"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/ads_description" />
+
+    <TextView
+        android:text="@string/interstitial_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adViewBannerAd"
+        android:id="@+id/textViewInterstitial" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ads_prompt"
+        android:id="@+id/buttonShowAd"
+        android:layout_below="@+id/textViewInterstitial"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ads_load"
+        android:id="@+id/buttonLoadAd"
+        android:layout_below="@+id/buttonShowAd"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

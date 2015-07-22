@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Example App with Adiant Ads</string>
+    <string name="banner_intro">A banner ad should load below.</string>
+    <string name="interstitial_intro">Click the button to show an ad. Click the second button to load the next ad before showing it.</string>
+    <string name="sponsored">Sponsored by</string>
+    <string name="action_native">Native ads</string>
+    <string name="ads_description">Ads</string>
+    <string name="ads_prompt">Press me</string>
+    <string name="ads_load">Load ad</string>
+    <string name="no_data">No data</string>
+</resources>

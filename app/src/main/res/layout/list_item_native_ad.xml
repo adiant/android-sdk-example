@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/list_item_horizontal_margin"
+    android:paddingRight="@dimen/list_item_horizontal_margin"
+    android:paddingTop="@dimen/list_item_vertical_margin"
+    android:paddingBottom="@dimen/list_item_vertical_margin">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="@dimen/list_item_horizontal_margin"
+        android:paddingRight="@dimen/list_item_horizontal_margin"
+        android:id="@+id/imageView"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/ads_description" />
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:id="@+id/textViewTitle" />
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewTitle"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:id="@+id/textViewDescription" />
+
+    <TextView
+        android:text="@string/sponsored"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewDescription"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:id="@+id/textViewSponsored"
+        android:paddingEnd="8dp"
+        android:paddingRight="8dp" />
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewDescription"
+        android:layout_toEndOf="@+id/textViewSponsored"
+        android:layout_toRightOf="@+id/textViewSponsored"
+        android:id="@+id/textViewDisplayName" />
+</RelativeLayout>
