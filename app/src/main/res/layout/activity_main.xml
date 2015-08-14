@@ -14,8 +14,8 @@
 
     <com.adiant.android.ads.AdView
         adiant:smart="true"
-        adiant:adunitid="13324-4210187987"
-        adiant:adtype="BANNER_468_60"
+        adiant:adunitid="13325-2514722925"
+        adiant:adsize="AD_728_90"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/adViewBannerAd"

@@ -15,7 +15,7 @@ import com.adiant.android.ads.AdView;
 import com.adiant.android.ads.InterstitialAd;
 
 public class MainActivity extends AppCompatActivity {
-    private static final String LOG_TAG = "Adblade Ads Test";
+    private static final String LOG_TAG = "ADBLADE_TEST";
     private InterstitialAd interstitial;
 
     @Override
