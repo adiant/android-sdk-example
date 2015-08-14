@@ -60,7 +60,7 @@ And add the SDK's **aar** to your project's dependencies
 
 ## Integration
 
-This information is also available on (our wiki)[https://github.com/adiant/android-sdk-example/wiki].
+This information is also available on [our wiki](https://github.com/adiant/android-sdk-example/wiki).
 
 For all types of ads, an app must require the INTERNET and ACCESS_NETWORK_STATE permissions in its manifest:
 
@@ -281,6 +281,4 @@ public void onDestroy() {
 
 ## Issues
 
-If you encounter issues with the SDK or with this example app, please open an issue on GitHub:
-
-https://github.com/adiant/android-sdk-example/issues
+If you encounter issues with the SDK or with this example app, please open an [issue on GitHub](https://github.com/adiant/android-sdk-example/issues).
