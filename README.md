@@ -282,3 +282,18 @@ public void onDestroy() {
 ## Issues
 
 If you encounter issues with the SDK or with this example app, please open an [issue on GitHub](https://github.com/adiant/android-sdk-example/issues).
+
+## Changelog
+
+### 1.1.0
+
+- Rich-media ads
+- Slide-show ads (ScrollRoll)
+- Dynamic banner ads
+
+### 1.0.0
+
+- Initial version
+- Static banner ads
+- Static interstitial ads
+- Native ad adapter
