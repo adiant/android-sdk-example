@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
             @Override
-            public void onAdLoaded() {
+            public void onAdLoaded(Object ad) {
                 Toast.makeText(MainActivity.this, "Ad loaded.", Toast.LENGTH_SHORT).show();
             }
 

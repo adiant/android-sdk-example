@@ -28,7 +28,7 @@ And add the SDK's **aar** to your project's dependencies
 
 ```groovy
 dependencies {
-    compile 'com.adiant.android.ads:ads:1.1.0@aar'
+    compile 'com.adiant.android.ads:ads:1.1.1@aar'
 }
 ```
 
@@ -52,7 +52,7 @@ And add the SDK's **aar** to your project's dependencies
     <dependency>
         <groupId>com.adiant.android.ads</groupId>
         <artifactId>ads</artifactId>
-        <version>1.1.0</version>
+        <version>1.1.1</version>
         <type>aar</type>
     </dependency>
 </dependencies>
@@ -284,6 +284,10 @@ public void onDestroy() {
 If you encounter issues with the SDK or with this example app, please open an [issue on GitHub](https://github.com/adiant/android-sdk-example/issues).
 
 ## Changelog
+
+### 1.1.1
+
+- Support for mediation via MoPub SDK
 
 ### 1.1.0
 
